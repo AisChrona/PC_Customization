@@ -8,7 +8,7 @@ Users can browse parts, compare options, create a custom build, and place orders
 
 Mini Project pc customization-…
 - 🧩 Component Library (Short Version)
-- The system supports a large collection of PC components, but only the main categories are shown here for readability:
+  The system supports a large collection of PC components, but only the main categories are shown here for readability:
 | Component Category | Description |
 |--------------------|-------------|
 | CPU               | Intel & AMD processors |
