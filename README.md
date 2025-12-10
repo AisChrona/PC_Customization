@@ -9,15 +9,18 @@ Users can browse parts, compare options, create a custom build, and place orders
 Mini Project pc customization-…
 🧩 Component Library (Short Version)
 The system supports a large collection of PC components, but only the main categories are shown here for readability:
-- CPUs
-- GPUs
-- RAM
-- SSD / HDD Storage
-- Power Supplies
-- Cabinets
-- Motherboards
-- Cooling Systems
-- Accessories
+| Component Category | Description |
+|--------------------|-------------|
+| CPU               | Intel & AMD processors |
+| GPU               | NVIDIA & AMD graphics cards |
+| RAM               | DDR3 / DDR4 / DDR5 modules |
+| Storage           | SSD, HDD, NVMe drives |
+| Power Supply      | SMPS units of various wattages |
+| Cabinet           | ATX, Micro-ATX, Mini-ITX cases |
+| Motherboard       | Compatible with Intel & AMD |
+| Cooling System    | Air coolers & Liquid coolers |
+| Accessories       | Keyboard, Mouse, RGB items, etc. |
+
 
 
 
@@ -29,11 +32,15 @@ Since the actual system contains many detailed models, brands, and variations, n
 Mini Project pc customization-…
 
 📦 Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: PHP
-- Database: MySQL
-- Server: WAMP
-- Tools: phpMyAdmin
+| Category     | Technologies          |
+| ------------ | --------------------- |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend**  | PHP                   |
+| **Database** | MySQL                 |
+| **Server**   | WAMP                  |
+| **Tools**    | phpMyAdmin            |
+
+
 
 
 
