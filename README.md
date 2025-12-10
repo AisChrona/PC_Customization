@@ -1,14 +1,14 @@
 🖥️ PC Customization
-A web-based platform to build your own custom PC
+(A web-based platform to build your own custom PC)
 
 🚀 Project Overview
-PC Customization is a web application that allows users to select and assemble their own desktop PC using various hardware components.
+-PC Customization is a web application that allows users to select and assemble their own desktop PC using various hardware components.
 Users can browse parts, compare options, create a custom build, and place orders. The system includes modules for Admin, User, Service Centre, and Delivery Boy, ensuring smooth workflow from customization → assembly → delivery.
 
 
 Mini Project pc customization-…
-🧩 Component Library (Short Version)
-The system supports a large collection of PC components, but only the main categories are shown here for readability:
+- 🧩 Component Library (Short Version)
+- The system supports a large collection of PC components, but only the main categories are shown here for readability:
 | Component Category | Description |
 |--------------------|-------------|
 | CPU               | Intel & AMD processors |
