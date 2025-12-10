@@ -28,7 +28,7 @@ Mini Project pc customization-…
 
 💡 Note:
 Since the actual system contains many detailed models, brands, and variations, not all components are listed here to avoid a very lengthy README.
-(All full details exist inside the database and user interface.)
+
 
 
 Mini Project pc customization-…
