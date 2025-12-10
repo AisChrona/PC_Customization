@@ -9,15 +9,19 @@ Users can browse parts, compare options, create a custom build, and place orders
 Mini Project pc customization-…
 🧩 Component Library (Short Version)
 The system supports a large collection of PC components, but only the main categories are shown here for readability:
-🔹CPUs
-🔹GPUs
-🔹RAM
-🔹Storage (SSD/HDD)
-🔹Power Supplies
-🔹Cabinets
-🔹Motherboards
-🔹Cooling Systems
-🔹Accessories
+
+| Component Category | Description                      |
+| ------------------ | -------------------------------- |
+| **CPU**            | Intel & AMD processors           |
+| **GPU**            | NVIDIA & AMD graphics cards      |
+| **RAM**            | DDR3 / DDR4 / DDR5 modules       |
+| **Storage**        | SSD, HDD, NVMe                   |
+| **Power Supply**   | SMPS units of various wattages   |
+| **Cabinet**        | ATX, Micro-ATX, Mini-ITX cases   |
+| **Motherboard**    | Intel & AMD compatible boards    |
+| **Cooling System** | Air coolers, Liquid coolers      |
+| **Accessories**    | Keyboard, Mouse, RGB items, etc. |
+
 
 💡 Note:
 Since the actual system contains many detailed models, brands, and variations, not all components are listed here to avoid a very lengthy README.
@@ -27,39 +31,62 @@ Since the actual system contains many detailed models, brands, and variations, n
 Mini Project pc customization-…
 
 📦 Tech Stack
-🔹Category	Technologies
-🔹Frontend	HTML, CSS, JavaScript
-🔹Backend	PHP
-🔹Database	MySQL
-🔹Server	WAMP
-🔹Tools	phpMyAdmin
+| Category     | Technologies          |
+| ------------ | --------------------- |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Backend**  | PHP                   |
+| **Database** | MySQL                 |
+| **Server**   | WAMP                  |
+| **Tools**    | phpMyAdmin            |
+
+
+
 
 🎯 Features
 
 👤 User
-🔹Register / Login
-🔹Browse components
-🔹Add to cart
-🔹Request custom builds
-🔹Place orders
-🔹Track delivery
-🔹Add ratings & reviews
+| Action                    | Description                         |
+| ------------------------- | ----------------------------------- |
+| **Register / Login**      | User authentication system          |
+| **Browse components**     | View available PC parts             |
+| **Add to cart**           | Add selected items to cart          |
+| **Request custom builds** | Submit custom PC requirements       |
+| **Place orders**          | Order selected components or builds |
+| **Track delivery**        | Monitor delivery status             |
+| **Add ratings & reviews** | Give feedback on products/services  |
+
+
+
 
 Mini Project pc customization-…
 
 🛠️ Service Centre
-🔹View user requirements
-🔹Assemble systems
-🔹Update build status
+| Action                     | Description             |
+| -------------------------- | ----------------------- |
+| **View user requirements** | Check user requests     |
+| **Assemble systems**       | Build the customized PC |
+| **Update build status**    | Mark assembly progress  |
+
+
 
 🚚 Delivery Boy
-🔹View assigned deliveries
-🔹Update delivery status
+| Action                       | Description              |
+| ---------------------------- | ------------------------ |
+| **View assigned deliveries** | Check tasks assigned     |
+| **Update delivery status**   | Mark progress/completion |
+
+
+
 
 🛡️ Admin
-🔹Manage users, products, and service centres
-🔹Approve/reject accounts
-🔹Assign delivery tasks
+| Action                                    | Description                      |
+| ----------------------------------------- | -------------------------------- |
+| **Manage users/products/service centres** | Add / edit / delete entries      |
+| **Approve / reject accounts**             | Validate registrations           |
+| **Assign delivery tasks**                 | Allocate orders to delivery boys |
+
+
+
 
 
 | Category     | Technologies          |
@@ -72,6 +99,8 @@ Mini Project pc customization-…
 
 
 
+
+
 | Field    | Type    | Description   |
 | -------- | ------- | ------------- |
 | uid      | int     | User ID       |
@@ -81,6 +110,8 @@ Mini Project pc customization-…
 | uaddress | varchar | Address       |
 | uimage   | varchar | Profile image |
 |          |         |               |
+
+
 
 
 | Field     | Type    | Description    |
@@ -96,12 +127,16 @@ Mini Project pc customization-…
 |           |         |                |
 
 
+
+
 | Test Case         | Expected Output         | Result |
 | ----------------- | ----------------------- | ------ |
 | Empty form fields | Validation errors       | ✔ Pass |
 | Incorrect login   | Error message           | ✔ Pass |
 | Admin login       | Redirect to Admin panel | ✔ Pass |
 |                   |                         |        |
+
+
 
 
 /pc_customization
@@ -113,6 +148,7 @@ Mini Project pc customization-…
 │── login.php
 │── user_reg.php
 │── index.php
+
 
 ⚙️ How to Run
 🔹Install XAMPP/WAMP
