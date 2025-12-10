@@ -9,18 +9,16 @@ Users can browse parts, compare options, create a custom build, and place orders
 Mini Project pc customization-…
 🧩 Component Library (Short Version)
 The system supports a large collection of PC components, but only the main categories are shown here for readability:
+- CPUs
+- GPUs
+- RAM
+- SSD / HDD Storage
+- Power Supplies
+- Cabinets
+- Motherboards
+- Cooling Systems
+- Accessories
 
-| Component Category | Description                      |
-| ------------------ | -------------------------------- |
-| **CPU**            | Intel & AMD processors           |
-| **GPU**            | NVIDIA & AMD graphics cards      |
-| **RAM**            | DDR3 / DDR4 / DDR5 modules       |
-| **Storage**        | SSD, HDD, NVMe                   |
-| **Power Supply**   | SMPS units of various wattages   |
-| **Cabinet**        | ATX, Micro-ATX, Mini-ITX cases   |
-| **Motherboard**    | Intel & AMD compatible boards    |
-| **Cooling System** | Air coolers, Liquid coolers      |
-| **Accessories**    | Keyboard, Mouse, RGB items, etc. |
 
 
 💡 Note:
@@ -31,13 +29,11 @@ Since the actual system contains many detailed models, brands, and variations, n
 Mini Project pc customization-…
 
 📦 Tech Stack
-| Category     | Technologies          |
-| ------------ | --------------------- |
-| **Frontend** | HTML, CSS, JavaScript |
-| **Backend**  | PHP                   |
-| **Database** | MySQL                 |
-| **Server**   | WAMP                  |
-| **Tools**    | phpMyAdmin            |
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database: MySQL
+- Server: WAMP
+- Tools: phpMyAdmin
 
 
 
@@ -150,17 +146,19 @@ Mini Project pc customization-…
 │── index.php
 
 
-⚙️ How to Run
-🔹Install XAMPP/WAMP
-🔹Place the project folder into:
-🔹htdocs (XAMPP)
-🔹www (WAMP)
-🔹Import the SQL database into phpMyAdmin
-🔹Update DB configuration in connect.php
-🔹Start Apache + MySQL
 
-Open browser:
-http://localhost/pc_customization
+⚙️# How to Run
+- Install XAMPP or WAMP
+- Place the project folder into:
+  - htdocs (for XAMPP)
+  - www (for WAMP)
+- Import the SQL database into phpMyAdmin
+- Update database configuration inside connect.php
+- Start Apache and MySQL services
+- 
+- Open your browser and go to:
+  http://localhost/your_project_folder
+
 
 
 🏁 Conclusion
@@ -169,6 +167,6 @@ It ensures a smooth experience across all user roles.
 
 
 📌 Important Note
-🔹 This GitHub repository does not include all files, because the full project folder is very large.
-🔹 Only the essential files and structure are uploaded.
-🔹 The system also contains many component models and sub-components, but only the major categories are shown here to keep the README clean.
+- This GitHub repository does not include all files, because the full project folder is very large.
+- Only the essential files and structure are uploaded.
+- The system also contains many component models and sub-components, but only the major categories are shown here to keep the README clean.
